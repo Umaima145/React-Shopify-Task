@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif !important;
+}
+.header-logo {
+  width: 100%;
+  height: 35px;
+}
+button {
+  font-family: "Inter", sans-serif; 
+}
+@keyframes slideInTop {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.css-hhdjsd-MuiContainer-root {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+.nav-link {
+  font-size: 16px;
+}
+.free_trial_btn {
+  color:black !important;
+  background:white !important;
+  text-transform: none !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top:8px !important;
+  padding-bottom:8px !important;
+  border-radius: 30px !important;
+  font-size: 18px !important;
+}
