@@ -163,7 +163,13 @@ function Header() {
             <Button variant="text" sx={{ color: 'white', textTransform: 'none' }}>
               Login
             </Button>
-            <Free_trial_btn/>
+            <Free_trial_btn
+           text="Start Free Trial"
+           bgColor="#fff"
+           textColor="#000"
+          hoverBgColor="#d4d4d8"
+          hoverTextColor="#000"
+/>
           </Box>
 
           {/* MOBILE NAV */}
