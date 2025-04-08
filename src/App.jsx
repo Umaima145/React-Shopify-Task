@@ -2,8 +2,10 @@
 import './App.css'
 import PlanCard from './Components/Cards/PlanCard'
 import VideoCard from './Components/Cards/VideoCard'
-import Free_trial_btn from './Components/Free_trial_btn'
+
 import Header from './Components/Header'
+import Shopify_footer from './Components/Shopify Footer/Shopify_footer'
+
 import VideoText from './Components/VideoWithtext/VideoText'
 
 
@@ -35,6 +37,8 @@ function App() {
    video_card_desc2="Do it all right from your pocket with the full-featured Shopify mobile app."
    video_src2="../src/assets/card-video-2.webm"
 />
+
+<Shopify_footer/>
 
     </>
   )
