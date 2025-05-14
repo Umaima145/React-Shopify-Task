@@ -44,6 +44,9 @@ export default function PlanCard() {
   return (
   <div style={{
     background: "#02090A",
+    // borderRadius:"60px",
+    // position:"relative",
+    // top:"-56px"
     
   }}>
     <Box
@@ -71,7 +74,8 @@ export default function PlanCard() {
        sx={{
         color: "#9797A2" ,
         fontSize:"18px",
-        fontWeight:"300"
+        fontWeight:"300",
+        lineHeight:"1.3"
        }}
       >
         
