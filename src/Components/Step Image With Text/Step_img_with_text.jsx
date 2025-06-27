@@ -88,7 +88,8 @@ const Step_img_with_text = ({ section_heading }) => {
         borderTopLeftRadius: '3rem',
         borderTopRightRadius: '3rem',
         position: 'relative',
-        top: '-56px',
+        top: '0px',
+        bottom:'0px',
         padding: '40px',
       }}
     >
