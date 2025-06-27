@@ -4,6 +4,7 @@ import PlanCard from './Components/Cards/PlanCard'
 import VideoCard from './Components/Cards/VideoCard'
 
 import Header from './Components/Header'
+import Selling_banner from './Components/Selling_banner'
 import Shopify_footer from './Components/Shopify Footer/Shopify_footer'
 import Step_img_with_text from './Components/Step Image With Text/Step_img_with_text'
 
@@ -39,6 +40,7 @@ function App() {
    video_src2="../src/assets/card-video-2.webm"
 />
 <Step_img_with_text section_heading="Start selling in no time"/>
+<Selling_banner/>
 <Shopify_footer/>
 
     </>
